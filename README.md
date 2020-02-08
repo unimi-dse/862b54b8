@@ -19,7 +19,9 @@ Require the package
 ## Technologies
 
 • R language
+
 • Plotly
+
 • Shiny
 
 ## Author
