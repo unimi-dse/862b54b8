@@ -1,6 +1,7 @@
 # 862b54b8
 # Midterm Package
-This package allows users to check the expenditure for education in Italy and his closest countries from 2014 to 2016. 
+This package allows users to check the government expenditure for education in Italy and its closest countries. 
+The years taken into consideration are: 2014, 2015, 2016. 
 
 ## Instalation
 Install the R package 
