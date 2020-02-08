@@ -4,11 +4,11 @@ server <-function(input, output){
 
     output$output <- renderText(paste(input$button))
 
-    output$plot <- renderPlotly({
+    output$plot <- plotly::renderPlotly({
 
         id <- as.integer(input$button)
 
-        plot <- plot_ly(x = data$Country.Name, y = data[,id],
+        plot <- plotly::plot_ly(x = data$Country.Name, y = data[,id],
                        type = "bar", marker = list(colour = "rgb(49,130,189)")
 
 
