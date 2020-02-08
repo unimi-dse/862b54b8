@@ -2,7 +2,7 @@
 shiny::shinyServer(function(input, output){
     data <- read.csv(system.file("extdata", "Provadue.csv", package = "midterm"), sep = ";")
 
-    output$output <- renderText(paste(input$button))
+    output$output <- shiny::renderText(paste(input$button))
 
     output$plot <- plotly::renderPlotly({
 
