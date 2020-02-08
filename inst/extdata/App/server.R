@@ -1,6 +1,6 @@
 
 server <-function(input, output){
-    data <- read.csv(system.file("data", "Provadue.csv", package="midterm"), sep = ";")
+    data <- read.csv(system.file("data", "Provadue.csv", package = "midterm"), sep = ";")
 
     output$output <- renderText(paste(input$button))
 
