@@ -1,5 +1,5 @@
 
-shiny::shinyServer(function(input, output){
+server <-function(input, output){
     data <- read.csv(system.file("extdata", "Provadue.csv", package = "midterm"), sep = ";")
 
     output$output <- renderText(paste(input$button))
