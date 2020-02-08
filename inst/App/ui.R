@@ -1,5 +1,4 @@
-shiny::shinyUI (
-   fluidPage(
+ ui <-fluidPage(
     titlePanel("Expenditure for education in Italy and its neighbours"),
     sidebarLayout(
         sidebarPanel(
