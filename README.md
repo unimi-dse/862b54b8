@@ -12,7 +12,7 @@ Require the package
 
 ```require(midterm)```
 
-## Run Shiny app
+## Usage
 
 ```Eduexp()```
 
@@ -26,4 +26,4 @@ Require the package
 
 ## Author
 
-Irene Aggiudicato
+Irene Aggiudicato (https://github.com/AggiudicatoIrene)
