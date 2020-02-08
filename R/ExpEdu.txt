@@ -1,0 +1,4 @@
+importData <- function() {
+  dataset_df<-read.csv(system.file("extdata", "Provadue.csv", package="midterm"),sep=";")
+  return(dataset_df)
+}
