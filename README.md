@@ -21,6 +21,6 @@ Require the package
 • Plotly
 • Shiny
 
-##Author
+## Author
 
 Irene Aggiudicato
