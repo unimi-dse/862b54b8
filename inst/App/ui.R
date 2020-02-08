@@ -10,7 +10,7 @@ ui <-fluidPage(
         ),
         mainPanel(
             textOutput("output"),
-            plotlyOutput("plot")
+            plotly::plotlyOutput("plot")
         )
 
 
