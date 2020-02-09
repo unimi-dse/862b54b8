@@ -25,4 +25,4 @@ Plotly
 Shiny
 
 ## Author
-Irene Aggiudicato 
+Irene Aggiudicato - (irene.aggiudicato@studenti.unimi.it)
