@@ -19,7 +19,9 @@ This will run the Shiny Application
 
 ## Technologies
 R language
+
 Plotly
+
 Shiny
 
 ## Author
