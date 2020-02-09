@@ -3,6 +3,9 @@
 #'The function goes without arguments
 #'
 #'
+#' @return runs Shiny app. 
+#'
+#' @export
 
 
 eduexp <- function (){
