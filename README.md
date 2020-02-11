@@ -13,7 +13,8 @@ Load the package
 ```require(ExpenditureEducation)```
 
 ## Usage
-ExpEdu()
+```ExpEdu()```
+
 This will run the Shiny Application
 
 ## Technologies
