@@ -1,0 +1,12 @@
+Package: ExpenditureEducation
+Type: Package
+Title: "Expenditure for education in Italy and its closest countries"
+Version: 0.1.0
+Author: Aggiudicato Irene
+Maintainer: Aggiudicato Irene <irene.aggiudicato@studenti.unimi.it>
+Description: This package allows users to check the expenditure for education in Italy and its closest countries. The years taken into considerations are: 2014, 2015 and 2016
+License: What license is it under?
+Encoding: UTF-8
+LazyData: true
+Depends: R (>= 3.1.0)
+Imports:devtools, plotly, shiny
