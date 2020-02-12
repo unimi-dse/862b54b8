@@ -17,6 +17,13 @@ Load the package
 
 This will run the Shiny Application
 
+## Documentation
+The package uses two different functions which are documented.
+The first one involves the launch of shiny app and can be search as 
+```?ExpEdu()```
+The second one involves the acquisition of data for the package and can be search as 
+```?getData()```
+
 ## Technologies
 Shiny
 
