@@ -1,4 +1,4 @@
-#'ExpenditureEductation
+#'ExpenditureEducation
 #'
 #'@description
 #'This function permits to the user to launch the shiny app.
