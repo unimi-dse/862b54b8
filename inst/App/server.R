@@ -1,8 +1,14 @@
+#' Shiny app server
+
 shiny::shinyServer(function(input, output){
+
+    #Acquire data from csv file through the function getData()#
     data <- getData()
 
+    #Print input on the main panel#
     output$output <- shiny::renderText(paste(input$button))
 
+    #Print graphs on main panel#
     output$plot <- plotly::renderPlotly({
 
         id <- as.integer(input$button)
