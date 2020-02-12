@@ -7,9 +7,9 @@ shiny::shinyServer(function(input, output){
 
         id <- as.integer(input$button)
 
-        plot <- plotly::plot_ly(x = data$Country.Name, y = data[,id],
-                                type = "bar", marker = list(colour = "rgb(49,130,189)"))%>%
-            plotly::layout(xaxis= list(title = "Countries"), yaxis = list(title = "Billions of dollars"))
+        plot <- plotly::layout(xaxis= list(title = "Countries"), yaxis = list(title = "Billions of dollars"),
+                               plotly::plot_ly(x = data$Country.Name, y = data[,id],
+                                               type = "bar", marker = list(colour = "rgb(49,130,189)")))
 
 
     })
