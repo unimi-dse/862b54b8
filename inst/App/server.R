@@ -1,5 +1,5 @@
 shiny::shinyServer(function(input, output){
-    data <- read.csv(system.file("extdata", "Provadue.csv", package = "ExpenditureEducation"), sep = ";")
+    data <- getData()
 
     output$output <- shiny::renderText(paste(input$button))
 
@@ -8,10 +8,8 @@ shiny::shinyServer(function(input, output){
         id <- as.integer(input$button)
 
         plot <- plotly::plot_ly(x = data$Country.Name, y = data[,id],
-                                type = "bar", marker = list(colour = "rgb(49,130,189)")
-
-
-        )
+                                type = "bar", marker = list(colour = "rgb(49,130,189)"))%>%
+            plotly::layout(xaxis= list(title = "Countries"), yaxis = list(title = "Billions of dollars"))
 
 
     })
