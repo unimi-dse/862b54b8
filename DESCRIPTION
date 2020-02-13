@@ -9,4 +9,5 @@ License: GPL-3
 Encoding: UTF-8
 LazyData: true
 Depends: R (>= 3.1.0)
-Imports:devtools, plotly, shiny
+Imports: devtools, plotly, shiny
+RoxygenNote: 7.0.2

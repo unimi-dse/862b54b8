@@ -2,7 +2,7 @@
 % Please edit documentation in R/Appshiny.R
 \name{ExpEdu}
 \alias{ExpEdu}
-\title{ExpenditureEductation}
+\title{Expenditure Education}
 \usage{
 ExpEdu()
 }
