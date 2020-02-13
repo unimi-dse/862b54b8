@@ -25,7 +25,7 @@ The first one involves the launch of shiny app and can be search as:
 
 The second one involves the acquisition of data for the package and can be search as: 
 
-```?getData()```
+```?getDataset()```
 
 ## Technologies
 Shiny
